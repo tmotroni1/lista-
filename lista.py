@@ -58,6 +58,7 @@ while True:
             continue
     except:
         continuar = input('Opção incorreta, aperte ENTER para continuar: ')
+        os.system('cls')
         continue
     
 for i, item in enumerate(lista):
